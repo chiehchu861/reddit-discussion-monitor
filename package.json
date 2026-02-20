@@ -1,0 +1,17 @@
+{
+  "name": "reddit-discussion-monitor",
+  "version": "0.1.0",
+  "description": "Personal tool to monitor Reddit discussions about video downloading tools",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "monitor": "node index.js --once"
+  },
+  "dependencies": {
+    "snoowrap": "^1.23.0",
+    "node-telegram-bot-api": "^0.66.0",
+    "dotenv": "^16.4.7",
+    "better-sqlite3": "^11.7.0"
+  },
+  "license": "MIT"
+}
